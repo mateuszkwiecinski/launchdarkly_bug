@@ -8,8 +8,8 @@ Sample repro repository for Launchdarkly bug [https://github.com/launchdarkly/an
 1. Run the app
 
 ## Expected behavior
-See toolbar with hello word text
+See toolbar with hello world text
 
 ## Actual behavior
-See white screen, the app hangs at [`identify().get()`](https://github.com/mateuszkwiecinski/launchdarkly_bug/blob/master/app/src/main/java/pls/help/launchdarkly/MainActivity.kt#L36)
+See a white screen, the app hangs at [`identify().get()`](https://github.com/mateuszkwiecinski/launchdarkly_bug/blob/master/app/src/main/java/pls/help/launchdarkly/MainActivity.kt#L36)
 
